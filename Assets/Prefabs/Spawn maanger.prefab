@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3582697612088981467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3582697612088981465}
+  - component: {fileID: 3582697612088981466}
+  m_Layer: 0
+  m_Name: Spawn maanger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3582697612088981465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3582697612088981467}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.029839, y: -3.4668508, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3582697612088981466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3582697612088981467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24e29ed9af731c34eb40d4e1817741f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - name: W1
+    enemyTypeA: {fileID: 5574035660125077447, guid: 6b973f70e5f6802469a87ee4446b0fe1,
+      type: 3}
+    enemyTypeB: {fileID: 5675716875424961639, guid: 9e42d2a78ca619548b5a38c25cf07bab,
+      type: 3}
+    enemyTypeM: {fileID: 747761622046553241, guid: b7d8efe1c2fb41d45b9147cfd21ebcbb,
+      type: 3}
+    enemyTypeBoss: {fileID: 8964756864587386783, guid: dbadfba0dcfe8b44b946ea5f3e1da553,
+      type: 3}
+    count: 5
+    rate: 4
+  - name: W2
+    enemyTypeA: {fileID: 5574035660125077447, guid: 6b973f70e5f6802469a87ee4446b0fe1,
+      type: 3}
+    enemyTypeB: {fileID: 5675716875424961639, guid: 9e42d2a78ca619548b5a38c25cf07bab,
+      type: 3}
+    enemyTypeM: {fileID: 747761622046553241, guid: b7d8efe1c2fb41d45b9147cfd21ebcbb,
+      type: 3}
+    enemyTypeBoss: {fileID: 8964756864587386783, guid: dbadfba0dcfe8b44b946ea5f3e1da553,
+      type: 3}
+    count: 6
+    rate: 4
+  - name: W3
+    enemyTypeA: {fileID: 5574035660125077447, guid: 6b973f70e5f6802469a87ee4446b0fe1,
+      type: 3}
+    enemyTypeB: {fileID: 5675716875424961639, guid: 9e42d2a78ca619548b5a38c25cf07bab,
+      type: 3}
+    enemyTypeM: {fileID: 747761622046553241, guid: b7d8efe1c2fb41d45b9147cfd21ebcbb,
+      type: 3}
+    enemyTypeBoss: {fileID: 8964756864587386783, guid: dbadfba0dcfe8b44b946ea5f3e1da553,
+      type: 3}
+    count: 7
+    rate: 4
+  - name: W4
+    enemyTypeA: {fileID: 5574035660125077447, guid: 6b973f70e5f6802469a87ee4446b0fe1,
+      type: 3}
+    enemyTypeB: {fileID: 5675716875424961639, guid: 9e42d2a78ca619548b5a38c25cf07bab,
+      type: 3}
+    enemyTypeM: {fileID: 747761622046553241, guid: b7d8efe1c2fb41d45b9147cfd21ebcbb,
+      type: 3}
+    enemyTypeBoss: {fileID: 8964756864587386783, guid: dbadfba0dcfe8b44b946ea5f3e1da553,
+      type: 3}
+    count: 8
+    rate: 4
+  - name: W5
+    enemyTypeA: {fileID: 5574035660125077447, guid: 6b973f70e5f6802469a87ee4446b0fe1,
+      type: 3}
+    enemyTypeB: {fileID: 5675716875424961639, guid: 9e42d2a78ca619548b5a38c25cf07bab,
+      type: 3}
+    enemyTypeM: {fileID: 747761622046553241, guid: b7d8efe1c2fb41d45b9147cfd21ebcbb,
+      type: 3}
+    enemyTypeBoss: {fileID: 8964756864587386783, guid: dbadfba0dcfe8b44b946ea5f3e1da553,
+      type: 3}
+    count: 9
+    rate: 4
+  - name: W6
+    enemyTypeA: {fileID: 5574035660125077447, guid: 6b973f70e5f6802469a87ee4446b0fe1,
+      type: 3}
+    enemyTypeB: {fileID: 5675716875424961639, guid: 9e42d2a78ca619548b5a38c25cf07bab,
+      type: 3}
+    enemyTypeM: {fileID: 747761622046553241, guid: b7d8efe1c2fb41d45b9147cfd21ebcbb,
+      type: 3}
+    enemyTypeBoss: {fileID: 8964756864587386783, guid: dbadfba0dcfe8b44b946ea5f3e1da553,
+      type: 3}
+    count: 10
+    rate: 4
+  nextWave: 0
+  waveCounter: 0
+  state: 2
+  timeTweenWaves: 5
+  waveCountdown: 0
