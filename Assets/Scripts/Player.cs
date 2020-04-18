@@ -191,7 +191,7 @@ public class Player : MonoBehaviour
     {
         if(hitPoints <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
