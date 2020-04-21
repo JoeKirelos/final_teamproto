@@ -37,9 +37,16 @@ public class enemiesKilled : MonoBehaviour
             Kills.fontSize = 40;
         }
 
-        if (Player.enemiesKilled == 25 || Player.enemiesKilled == 50 || Player.enemiesKilled == 75 || Player.enemiesKilled == 100)
+        //if (Player.enemiesKilled == 25 || Player.enemiesKilled == 50 || Player.enemiesKilled == 75 || Player.enemiesKilled == 100)
+        //{
+           // Player.hitPoints += 4;
+            //Player.enemiesKilled += 1;
+        //}
+
+        if (Player.enemiesKilled % 25 == 0)
         {
             Player.hitPoints += 4;
+            Player.enemiesKilled += 1;
         }
     }
 }
